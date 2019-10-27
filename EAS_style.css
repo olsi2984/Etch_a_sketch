@@ -1,0 +1,12 @@
+div {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    width: 25px;
+    height: 25px;
+    border: 1px solid blue;
+    padding: 0px;
+    margin: 0px;
+ 
+}
