@@ -1,12 +1,17 @@
+:root {
+    --grid-dimension: 16;
+  }
+
+
 div {
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
+    grid-template-columns: repeat(var(--grid-dimension), 1fr);
+    grid-template-rows: repeat(var(--grid-dimension), 1fr);   
     width: 25px;
     height: 25px;
     border: 1px solid blue;
     padding: 0px;
     margin: 0px;
- 
+    
 }
